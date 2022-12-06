@@ -1,12 +1,12 @@
 .wrapper {
-  background-color: #242833;
+  background-color: #2a2d39;
   min-height: 200px;
   width: 50%;
   margin: 0 auto;
-  border-radius: 2rem;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
   display: flex;
   padding: 20px;
   flex-direction: column;
@@ -46,7 +46,7 @@
   display: flex;
   justify-content: center;
   place-self: center;
-  color: #f45358;
+  color: var(--light-color);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -55,7 +55,7 @@
   border-radius: 1.5rem;
   font-weight: bolder;
   font-size: 1.5rem;
-  border: 1px solid #f45358;
+  border: 1px solid var(--light-color);
 }
 
 .recentWinnerTitle {
@@ -71,11 +71,11 @@
   font-weight: bolder;
   color: #fff;
   text-align: center;
-  color: #f45358;
+  color: var(--light-color);
 }
 
 .textAccent {
-  color: #f45358;
+  color: var(--light-color);
 }
 
 .drawWinnerBtn {
@@ -85,11 +85,11 @@
   justify-content: center;
   margin: 0 auto;
   width: 20%;
-  border: 1px solid #f2505e;
+  border: 1px solid var(--light-color);
   border-radius: 1.2rem;
   padding: 10px 20px;
   font-size: 1.3rem;
   font-weight: bolder;
   cursor: pointer;
-  color: #f2505e;
+  color: var(--light-color);
 }

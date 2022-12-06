@@ -1,4 +1,4 @@
 .wrapper {
-  background-color: #1e2128;
+  background-color: var(--body-color);
   padding-bottom: 30px;
 }
